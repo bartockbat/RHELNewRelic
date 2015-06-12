@@ -8,7 +8,7 @@ To install:
 
 * edit the Dockerfile  - the line that has the following:
 
-	RUN nrsysmond-config --set license_key=<enter_your_key_here>
+	`RUN nrsysmond-config --set license_key=<enter_your_key_here>`
 
 	Register with Newrelic to get your license key - and replace the <enter_your_key_here> with your key - no brackets <>
 

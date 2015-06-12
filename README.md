@@ -5,7 +5,7 @@
 To install:
 
 * do a git clone https://github.com/bartockbat/RHELNewRelic.git 
-
+###### Note : this is for demo purposes only - not a true model - the license key would have to be a manual process in reality
 * edit the Dockerfile  - the line that has the following:
 
 	`RUN nrsysmond-config --set license_key=<enter_your_key_here>`

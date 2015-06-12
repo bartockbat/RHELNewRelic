@@ -4,11 +4,11 @@ This is a Docker build for the Newrelic application. Note - it will only work co
 
 To install:
 
-1. do a git clone <REPO>
+1. do a git clone https://github.com/bartockbat/RHELNewRelic.git 
 
 2. edit the Dockerfile  - the line that has the following:
-RUN nrsysmond-config --set license_key=<enter_your_key_here>
-Register with Newrelic to get your license key - and replace the <enter_your_key_here> with your key - no brackets <>
+	RUN nrsysmond-config --set license_key=<enter_your_key_here>
+	Register with Newrelic to get your license key - and replace the <enter_your_key_here> with your key - no brackets <>
 
 3.do a docker build -t rhel7/newrelic:test .
 

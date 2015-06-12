@@ -16,7 +16,9 @@ To install:
 
 * Once your container is built, to do a quick test, enter the container:
 
-	docker run -it rhel7/newrelic:test bash - you will be presented with a Linux shell prompt
+	docker run -it rhel7/newrelic:test bash 
+
+	you will be presented with a Linux shell prompt
 
 * run the following command
 

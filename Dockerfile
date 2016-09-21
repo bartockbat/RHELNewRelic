@@ -1,5 +1,5 @@
 FROM registry.access.redhat.com/rhel7 
-MAINTAINER gmillard@redhat.com 
+MAINTAINER NewRelic 
 
 #Labels as per spec
 LABEL Name rhel7/newrelic:test 
